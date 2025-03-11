@@ -7,7 +7,7 @@ using System.Reflection;
 namespace AutomatedPRReview
 {
     public class CodeReviewTool
-    {
+    {//
         internal static string ProjectPath { get; set; }
         private List<string> excludeFolders;
         internal static List<string> AssertIssues = new List<string>();
